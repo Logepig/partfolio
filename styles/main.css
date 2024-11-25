@@ -1,0 +1,10 @@
+@import url("style.css");
+
+
+@font-face {
+    font-family: "Medium";  
+    src: url("/fonts/medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+     }
+

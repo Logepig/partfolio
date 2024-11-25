@@ -1,0 +1,254 @@
+.nav_text {
+    font-family: Medium;
+font-size: 20px;
+font-weight: 500;
+line-height: 35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border: none;
+background-color: white;
+}
+
+.logo {
+    position: absolute;
+    left: 10%;
+    top: 6%;
+}
+
+.visual_img {
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+
+.button_block {
+    margin-top: 5vh;
+    margin-left: 70vw;
+    display: grid;
+    grid-auto-columns: auto;
+}
+
+.main_page_text {
+    font-family: Medium;
+font-size: 4vw;
+font-weight: 500;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 65vw;
+height: 20vh;
+margin-top: -1vh;
+margin-left: 4vw;
+margin-bottom: 4vh;
+}
+
+.writing_butt {
+    margin-top: -1vh;
+    margin-left: 35vw;
+    width: 309px;
+height: 69px;
+border: none;
+background-color: #17181D;
+border-radius: 40px;
+font-family: Medium;
+font-size: 1vw;
+font-weight: 500;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+.display_grid_page_blocks {
+    margin-top: 3vh;
+    display: flex;
+    gap: 1vw;
+}
+
+.block1 {
+    background-color: black;
+    background-image: url(/img/red.png);
+    height: 46vh;
+    width: 20vw;
+}
+
+.block2 {
+    background-color: black;
+    background-image: url(/img/green.png);
+    height: 46vh;
+    width: 25vw;
+}
+
+.block3 {
+    background-color: black;
+    background-image: url(/img/blue.png);
+    height: 46vh;
+    width: 60vw;
+}
+
+.arrow_img {
+    position: absolute;
+    left: 40%;
+    width: 41.75px;
+    height: 41.75px;
+}
+
+.button_for_view {
+    margin-top: 5px;
+    height: 41.75px;
+    width: 20vw;
+    margin-left: 2vw;
+    font-family: Medium;
+font-size: 30px;
+font-weight: 500;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background:none;
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: 4px, solid;
+border-color: white;
+display: flex;
+color: white;
+}
+
+.buttons {
+    margin-top: 250px;
+}
+
+.num_img {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.little_text {
+    font-family: Medium;
+    margin-top: 18vh;
+    margin-left: 3vw;
+    font-size: 15px;
+font-weight: 500;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    color: white;
+}
+
+.big_text {
+    font-family: Medium;
+    margin-left: 3vw;
+    margin-top: -1vh;
+    font-size: 40px;
+font-weight: 500;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    color: white;
+}
+
+.block3_text1 {
+    font-family: MEDIUM;
+font-size: 145.45px;
+font-weight: 500;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+.block3_text2 {
+    margin-top: 16vh;
+    font-family: MEDIUM;
+font-size: 40px;
+font-weight: 500;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+.df_text {
+    margin-left: 1vw;
+    margin-top: 15vh;
+    display: flex;
+    gap: 10px;
+    height: 150px;
+}
+
+.modal_add {
+    background-color: rgba(0, 0, 0, .1);
+    left: 0;
+    top: 0;
+    z-index: 9999999;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    position: fixed;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal_add.open {
+    visibility: visible;
+    opacity: 1;
+    }
+
+    .modal_box {
+        background-color: white;
+        width: 50vw;
+        height: 400px;
+        padding: 45px;
+        z-index: 99999;
+        border-radius: 22.32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .big_info_text {
+        margin-top: -20px;
+        font-family: Medium;
+font-size: 36px;
+font-weight: 500;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    }
+
+    .little_info_text {
+        margin-top: 20px;
+        font-family: Medium;
+        font-size: 6.95px;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+    }
+
+    .input_block {
+        margin-top: 70px;
+        display: block;
+        margin-left: 30%;
+    }
+
+    .input_row {
+        width: 370.75px;
+        height: 43.78px;
+        border-radius: 8px;
+    }
+
+    .button_submit {
+        background-color: #17181D;
+        color: white;
+        width: 370.75px;
+        height: 43.78px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
